@@ -13,4 +13,5 @@ run     apt-get install -y -q libjpeg-dev libpng-dev libtiff-dev libjasper-dev z
 run     apt-get install -y -q unzip
 add     build_opencv.sh /build_opencv.sh
 run     /bin/sh /build_opencv.sh
+run	apt-get install -y -q python-scipy
 run     rm -rf /build_opencv.sh
